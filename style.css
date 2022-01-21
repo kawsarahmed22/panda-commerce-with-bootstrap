@@ -2,3 +2,16 @@
 .banner-bg {
     background-color: #FCEAE8;
 }
+
+#subscribe {
+    height: 300px;
+}
+
+.buy-now-button {
+    color: #fff;
+        padding: 9px 30px;
+        border-radius: 8px;
+        border: none;
+        margin-top: 10px;
+        background-image: linear-gradient(#ac1350, #ff136f);
+    }

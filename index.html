@@ -13,7 +13,7 @@
     <!-- Header Part -->
     <header>
         <!-- Menu Start -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div class="container">
               <a class="navbar-brand" href="#">
                 <img src="images/logo.png" alt="">
@@ -27,13 +27,13 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Shoes</a>
+                    <a class="nav-link active" aria-current="page" href="#shoe">Shoes</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Backpack</a>
+                    <a class="nav-link active" aria-current="page" href="#backpack">Backpack</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Subscribe</a>
+                    <a class="nav-link active" aria-current="page" href="#subscribe">Subscribe</a>
                   </li>
                 </ul>
               </div>
@@ -50,7 +50,7 @@
                               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro numquam similique facilis
                                 dolores. Libero voluptate, repellendus quos pariatur et suscipit!</p>
                                 <h1>$420</h1>
-                                <button class="btn btn-warning">Buy Now</button>
+                                <button class="btn buy-now-button">Buy Now</button>
                           </div>
                           <div class="col-5 p-5">
                             <img src="images/banner-images/headphone.png" class="d-block w-100 alt="...">
@@ -65,7 +65,7 @@
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro numquam similique facilis
                               dolores. Libero voluptate, repellendus quos pariatur et suscipit!</p>
                               <h1>$1200</h1>
-                              <button class="btn btn-warning">Buy Now</button>
+                              <button class="btn buy-now-button">Buy Now</button>
                         </div>
                         <div class="col-5 p-5">
                           <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
@@ -79,7 +79,7 @@
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro numquam similique facilis
                               dolores. Libero voluptate, repellendus quos pariatur et suscipit!</p>
                               <h1>$600</h1>
-                              <button class="btn btn-warning">Buy Now</button>
+                              <button class="btn buy-now-button">Buy Now</button>
                         </div>
                         <div class="col-5 p-5">
                           <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
@@ -124,7 +124,7 @@
                 </div>
               </div>
         </section>
-        <section class="shoes container">
+        <section class="shoes container" id="shoe">
             <h2>Shoes</h2>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
@@ -136,7 +136,7 @@
                       <h5>$120</h5>
                     </div>
                     <div class="m-3">
-                      <button class="btn btn-warning">Buy Now</button>
+                      <button class="btn buy-now-button">Buy Now</button>
                     </div>
                   </div>
                 </div>
@@ -149,7 +149,7 @@
                       <h5>$120</h5>
                     </div>
                     <div class="m-3">
-                      <button class="btn btn-warning">Buy Now</button>
+                      <button class="btn buy-now-button">Buy Now</button>
                     </div>
                   </div>
                 </div>
@@ -162,7 +162,7 @@
                       <h5>$350</h5>
                     </div>
                     <div class="m-3">
-                      <button class="btn btn-warning">Buy Now</button>
+                      <button class="btn buy-now-button">Buy Now</button>
                     </div>
                   </div>
                 </div>
@@ -193,7 +193,7 @@
                 </div>
               </div>
         </section>
-        <section class="container my-5">
+        <section class="container my-5" id="backpack">
             <h2>Backpack</h2>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
@@ -205,7 +205,7 @@
                       <h5>$125</h5>
                     </div>
                     <div class="m-3">
-                      <button class="btn btn-warning">Buy Now</button>
+                      <button class="btn buy-now-button">Buy Now</button>
                     </div>
                   </div>
                 </div>
@@ -218,7 +218,7 @@
                       <h5>$120</h5>
                     </div>
                     <div class="m-3">
-                      <button class="btn btn-warning">Buy Now</button>
+                      <button class="btn buy-now-button">Buy Now</button>
                     </div>
                   </div>
                 </div>
@@ -231,23 +231,26 @@
                       <h5>$169</h5>
                     </div>
                     <div class="m-3">
-                      <button class="btn btn-warning">Buy Now</button>
+                      <button class="btn buy-now-button">Buy Now</button>
                     </div>
                   </div>
                 </div>
               </div>
         </section>
 
-        <section class="container text-center p-5 banner-bg">
-            <h1>LET'S STAY IN TOUCH</h1>
-            <p>Get updates on sales specials and more</p>
-            <input class="p-2 border-0" type="email" name="" id="" placeholder="Enter Your Email">
-            <button class="btn btn-warning p-2 border-0">Submit</button>
+        <section class="container p-5 banner-bg d-flex align-items-center justify-content-center" id="subscribe">
+            <div>
+                <h1>LET'S STAY IN TOUCH</h1>
+                <p>Get updates on sales specials and more</p> 
+                <input class="p-2 border-0 form-control" type="email" name="" id="" placeholder="Enter Your Email"> <br>
+                <button class="btn buy-now-button p-2 border-0">Submit</button>
+            </div>
+           
         </section>
     </main>
 
-    <footer>
-
+    <footer class="text-center py-5">
+        <p>© Panda Commerce, All rights reserved</p>
     </footer>
 
 
